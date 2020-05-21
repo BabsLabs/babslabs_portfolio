@@ -18,6 +18,23 @@ function App() {
         >
           GitHub
         </a>
+        <p>Featured Projects</p>
+        <a
+          className="App-link"
+          href="https://sumocity.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SumoCity
+        </a>
+        <a
+          className="App-link"
+          href="https://code-songs.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code Songs
+        </a>
       </header>
     </div>
   );
