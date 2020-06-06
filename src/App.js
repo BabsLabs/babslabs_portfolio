@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './babslabs-monkey-logo-portfolio.png';
-import './App.css';
+import space from './components/Space';
+import './App.scss';
 
 function App() {
   return (
