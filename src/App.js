@@ -1,12 +1,11 @@
 import React from 'react';
 import logo from './babslabs-monkey-logo-portfolio.png';
-import space from './components/Space';
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <body className="App-body">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Portfolio Site Coming Soon
@@ -30,13 +29,21 @@ function App() {
         </a>
         <a
           className="App-link"
+          href="https://babslabs-iss-tracker.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          International Space Station Tracker
+        </a>
+        <a
+          className="App-link"
           href="https://code-songs.herokuapp.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Code Songs
         </a>
-      </header>
+      </body>
     </div>
   );
 }
